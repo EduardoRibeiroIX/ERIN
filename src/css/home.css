@@ -1,0 +1,6 @@
+.home {
+    grid-area: home;
+    background: url('../image/FundoVerde.png') center no-repeat;
+    width: 400%;
+    height: 440px;
+}

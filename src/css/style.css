@@ -1,0 +1,18 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    display: grid;
+    grid-template-areas: "header header header header"
+                         "home home home home"
+                         "main main main main"
+                         "services services services services"
+                         "projects projects projects projects"
+                         "footer footer footer footer";
+    
+    grid-template-columns: repeat(4, 1fr);
+    font-size: 1.6rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
