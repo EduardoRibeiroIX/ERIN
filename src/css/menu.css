@@ -20,7 +20,7 @@
 }
 
 .header a:hover h1 {
-    color: rgb(0, 120, 20);
+    color: rgb(12, 196, 12);
 }
 
 
@@ -39,7 +39,7 @@
 }
 
 .header nav ul li a:hover {
-    color: rgb(0, 120, 20);
+    color: rgb(12, 196, 12);
     font-weight: 700;
     border-bottom: solid;
 }
