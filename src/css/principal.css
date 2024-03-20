@@ -6,6 +6,7 @@
 .main img {
     width: 200px;
     height: 200px;
+    border-radius: 5%;
 }
 
 .main .info {
@@ -17,5 +18,5 @@
 }
 
 .main .info p {
-    color: rgb(14, 122, 14);
+    color: #88b10c;
 }

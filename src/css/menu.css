@@ -1,6 +1,5 @@
 /* ---------------- HEADER -------------- */
 .header {
-    grid-area: header;
     background-color: #fff;
 }
 
@@ -20,7 +19,8 @@
 }
 
 .header a:hover h1 {
-    color: rgb(12, 196, 12);
+    font-size: 3.25rem;
+    color: #88b10c;
 }
 
 
@@ -39,7 +39,7 @@
 }
 
 .header nav ul li a:hover {
-    color: rgb(12, 196, 12);
+    color: #88b10c;
     font-weight: 700;
     border-bottom: solid;
 }
