@@ -1,6 +1,8 @@
 .home {
     display: flex;
-    background: url('../image/FundoVerde.png') center no-repeat;
+    justify-content: space-between;
+    background: url('../image/FundoVerde.png') center center no-repeat;
+    background-size: 100% auto;
     height: 440px;
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
@@ -8,14 +10,13 @@
 }
 
 .home img {
-    margin-left: 80px;
-    padding-top: 70px;
+    margin-left: 10%;
 }
 
 .home .home-conteudo {
     text-align: center;
     width: 450px;
-    margin-left: 10%;
+    margin-right: 10%;
     padding-top: 100px;
     font-size: 3rem;
 }
