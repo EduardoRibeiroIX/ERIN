@@ -1,0 +1,32 @@
+.evento {
+    margin: 60px 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.evento h3 {
+    color: rgb(14, 122, 14);
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.evento .realizacao .img{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.evento .apoio .img {
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.evento img {
+    margin: 30px 20px;
+    height: 150px;
+    width: 120px;
+}
