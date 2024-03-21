@@ -43,3 +43,32 @@
     background-color: #88b10c;
 }
 
+@media (max-width: 900px) {
+
+    .home {
+        justify-content: center;
+        height: 250px;
+    }
+    
+    .home img {
+        width: 0;
+        right: 0;
+    }
+
+    .home .home-conteudo {
+        padding-top: 50px;
+    }    
+
+    .home .home-conteudo p {
+        font-size: 2.2rem;
+    }
+
+    .home .home-conteudo .btn {
+        font-size: 1.6rem;
+    }
+
+    .home .home-conteudo .btn:hover {
+        font-size: 1.8rem;
+    }
+
+}

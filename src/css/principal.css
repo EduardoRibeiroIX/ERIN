@@ -20,3 +20,21 @@
 .main .info p {
     color: #88b10c;
 }
+
+@media (max-width: 900px) {
+
+    .main {
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main .info {
+        margin-top: 20px;
+        margin-right: 20px;
+        font-weight: 500;
+    }
+
+}
