@@ -33,17 +33,21 @@
 
 @media (max-width: 900px) {
     .evento {
+        width: 100%;
+        padding: 0;
+        margin: 0;
         flex-direction: column;
         justify-content: space-around;
     }
 
     .evento .realizacao .img {
-        width: 100%;
+        flex-direction: column;
         justify-content: space-around;
     }
 
     .evento .apoio .img {
-        width: 100%;
         justify-content: space-around;
+        flex-direction: column;
     }
+
 }

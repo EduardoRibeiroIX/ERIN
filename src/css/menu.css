@@ -108,6 +108,7 @@
 @media (max-width: 900px) {
     .header {
         height: 80px;
+        width: 100%;
     }
     .header .menu  {
         display: block;
