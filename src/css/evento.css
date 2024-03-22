@@ -30,3 +30,20 @@
     height: 150px;
     width: 120px;
 }
+
+@media (max-width: 900px) {
+    .evento {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .evento .realizacao .img {
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .evento .apoio .img {
+        width: 100%;
+        justify-content: space-around;
+    }
+}

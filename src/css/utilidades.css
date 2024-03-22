@@ -35,3 +35,33 @@
     
 }
 
+@media (max-width:900px) {
+
+    .utilidade h3 {
+        margin: 0;
+    }
+
+    .utilidade .utilidade-container {
+        margin: 0;
+        flex-direction: column;
+    }
+
+    .utilidade .utilidade-container .info {
+        margin: 0;
+    }
+
+    .utilidade .utilidade-container .info h4 {
+        margin-bottom: 10px;
+    }
+
+    .utilidade .utilidade-container .map {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 50px;
+    }
+
+    .utilidade .utilidade-container .map iframe {
+        height: 400px;
+        width: 400px;
+    }
+}

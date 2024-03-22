@@ -90,3 +90,35 @@
     font-weight: 700;
     color: #fff;
 }
+
+@media (max-width: 900px) {
+
+    .footer .menu nav ul {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .footer .menu nav li {
+        margin: 10px 0;
+    }
+
+    .footer .menu nav li a {
+        font-weight: 600;
+    }
+
+    .footer .redes-sociais {
+        margin-top: 10px;
+    }
+
+    .footer .dev h5 {
+        margin-top: 30px;
+        font-size: 1.6rem;
+        font-weight: 700;
+    }
+
+    .footer .dev p {
+        font-size: 1.2rem;
+        font-weight: 800;
+    }
+
+}

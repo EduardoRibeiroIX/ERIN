@@ -107,9 +107,9 @@
 
 @media (max-width: 900px) {
     .header {
-        height: 100px;
+        height: 80px;
     }
-    .header .menu {
+    .header .menu  {
         display: block;
     }
 
@@ -117,9 +117,11 @@
         display: none;
     }
 
+
     .header input:checked ~ul {
         display: block;
     }
+
 
     .header nav {
         position: absolute;
