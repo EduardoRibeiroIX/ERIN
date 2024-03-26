@@ -1,5 +1,7 @@
 /* ---------------- HEADER -------------- */
 .header {
+    position: fixed;
+    width: 100%;
     background-color: #fff;
 }
 
@@ -11,6 +13,17 @@
     min-height: 75px;
 }
 
+.header .header-container a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .header-container a img {
+    height: 50px;
+    transition: 0.3s;
+}
+
 .header h1 {
     font-size: 3rem;
     font-weight: 700;
@@ -18,9 +31,13 @@
     text-transform: uppercase;
 }
 
-.header a:hover h1 {
+.header .header-container:hover h1 {
     font-size: 3.25rem;
     color: #88b10c;
+}
+
+.header .header-container:hover img {
+    height: 60px;
 }
 
 
@@ -110,6 +127,11 @@
         height: 80px;
         width: 100%;
     }
+
+    .header .header-container a img {
+        height: 50px;
+    }
+
     .header .menu  {
         display: block;
     }
