@@ -42,22 +42,30 @@
 .home .home-conteudo .btn:hover {
     font-size: 2.2rem;
     background-color: #88b10c;
+    box-shadow: #88b10c;
 }
 
 @media (max-width: 900px) {
 
     .home {
+        align-items: center;
+        background-image: none;
+        background-color: #88b10c;
         justify-content: center;
-        height: 300px;
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+        height: 100%;
+        padding: 0;
+        margin: 0;
     }
 
     .home img {
-        width: 0;
-        right: 0;
+        display: none;
     }
 
     .home .home-conteudo {
-        padding-top: 50px;
+        padding: 0;
+        margin: 0;
+        margin: 50px 0;
     }    
 
     .home .home-conteudo p {

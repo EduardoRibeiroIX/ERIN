@@ -31,12 +31,12 @@
     text-transform: uppercase;
 }
 
-.header .header-container:hover h1 {
+.header .header-container .logo a:hover{
     font-size: 3.25rem;
     color: #88b10c;
 }
 
-.header .header-container:hover img {
+.header .header-container .logo a:hover img {
     height: 60px;
 }
 
@@ -124,12 +124,12 @@
 
 @media (max-width: 900px) {
     .header {
-        height: 80px;
+        position: static;
         width: 100%;
     }
 
     .header .header-container a img {
-        height: 50px;
+        display: none;
     }
 
     .header .menu  {
