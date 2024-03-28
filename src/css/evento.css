@@ -1,5 +1,5 @@
 .evento {
-    margin: 60px 30px;
+    margin: 130px 30px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -11,17 +11,21 @@
     font-size: 2rem;
     font-weight: 700;
 }
+
 .evento .realizacao .img{
     display: flex;
-    width: 400px;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+}
+
+.evento .apoio .img .gercom{
+    width: 30%;
 }
 
 .evento .apoio .img {
     display: flex;
     width: 600px;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
