@@ -36,7 +36,7 @@ const Footer = () => {
             </div>
             <div className="dev">
                 <h5>Desenvolvido por <Link to="https://www.instagram.com/eduu_rib/" target="_blank">Eduardo Ribeiro <i className="fa-solid fa-code"></i></Link></h5>
-                <p>Copyright <i className="fa-regular fa-copyright"></i> ERIN — Todos os direitos reservados</p>
+                <p>Copyright <i className="fa-regular fa-copyright"></i> ERIN2 — Todos os direitos reservados</p>
             </div>
         </footer>
     );
